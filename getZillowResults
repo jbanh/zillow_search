@@ -1,0 +1,15 @@
+require 'faraday'
+require 'nokogiri'
+require 'rspec'
+
+# response = Faraday.get('http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz1gdr6wmx3bf_a80zd&address=12582-Cardinal-Avenue&citystatezip=92843')
+# expect(response).to eq(200)
+# puts response.success?
+#
+# doc = Nokogiri::XML response.body
+# puts doc.xpath('//bedrooms').collect{|bedrooms| bedrooms.text} == 4
+# puts doc.xpath('//street').collect{|street| street.text} == '12582 Cardinal Ave'
+
+describe getPropertyDetails do
+
+end
